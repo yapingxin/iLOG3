@@ -1,0 +1,6 @@
+#ifndef _INC_TESTCODE_TC01_Basic_INFOLOGG_
+#define _INC_TESTCODE_TC01_Basic_INFOLOGG_
+
+int TC01_Basic_INFOLOGG();
+
+#endif // !_INC_TESTCODE_TC01_Basic_INFOLOGG_

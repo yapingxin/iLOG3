@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utility\Common">
+      <UniqueIdentifier>{2f5de5fc-a2be-472b-b964-de8d76666d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\TestCode">
+      <UniqueIdentifier>{7c5e8f40-59e4-4e9a-a37c-e882e151c152}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Code\Platform\Win32\Utilities\Common\stdafx.c">
+      <Filter>Utility\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Utilities\iLog3-Test\main.c">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC01_Basic_INFOLOGG.c">
+      <Filter>Utility\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC02_Basic_MultiOutput.c">
+      <Filter>Utility\TestCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Code\Platform\Win32\Utilities\Common\stdafx.h">
+      <Filter>Utility\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Platform\Win32\Utilities\Common\targetver.h">
+      <Filter>Utility\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC01_Basic_INFOLOGG.h">
+      <Filter>Utility\TestCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC02_Basic_MultiOutput.h">
+      <Filter>Utility\TestCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

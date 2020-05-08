@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{38a1a4c3-9f1f-4928-8a5a-d5de033b52c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL_Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DLL_Main\Common">
+      <UniqueIdentifier>{e049033d-9501-409e-bb7f-31df83b4f56f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Code\iLOG3\src\LOG.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\iLOG3\src\LOGC.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\iLOG3\src\LOGS.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Platform\Win32\Utilities\Common\stdafx.h">
+      <Filter>DLL_Main\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Platform\Win32\Utilities\Common\targetver.h">
+      <Filter>DLL_Main\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Code\iLOG3\src\LOG.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\iLOG3\src\LOGC.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\iLOG3\src\LOGS.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Platform\Win32\Utilities\Common\stdafx.c">
+      <Filter>DLL_Main\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.c">
+      <Filter>DLL_Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+iLOG3_Root
+D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Code\iLOG3
+
+
+=====
+Notes
+=====
+
+$(SolutionDir)Win32\Output\$(Platform)\$(Configuration)\
+$(SolutionDir)Win32\IntDir\$(ProjectName)\$(Platform)\$(Configuration)\
+
+$(SolutionDir)Win32\Libraries\$(Platform)\$(Configuration)\
+$(SolutionDir)Win32\IntDir\$(ProjectName)\$(Platform)\$(Configuration)\
+
+$(iLOG3_Root)\include
+
+$(iLOG3_Root)\DLL\$(Platform)\$(Configuration)
+iLog3.lib
+
+copy $(iLOG3_Root)\DLL\$(Platform)\$(Configuration)\iLog3.dll $(TargetDir)
+
